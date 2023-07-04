@@ -5,6 +5,4 @@ draft: true # Set 'false' to publish
 description: ""
 categories:
 - Uncategories
-tags:
-- 
 ---
