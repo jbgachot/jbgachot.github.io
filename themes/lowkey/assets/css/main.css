@@ -12,6 +12,8 @@
   --tertiary: #1C3166;
   --dark: #240047;
   --black: #1C0021;
+  --gray: #7D7483;
+  --gray-light: #B2A8B8;
 }
 
 body {
@@ -21,6 +23,18 @@ body {
 
 .shadow-primary {
   text-shadow: 3px -2px var(--primary);
+}
+
+.custom-gray, .custom-gray-link {
+  color: var(--gray-light);
+}
+
+.custom-gray-dark {
+  color: var(--gray);
+}
+
+.custom-gray-link:hover {
+  color: var(--gray);
 }
 
 .link-underlined {
