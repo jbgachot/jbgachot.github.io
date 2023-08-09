@@ -1,10 +1,11 @@
 ---
 title: "Comet"
-begin: 2019
-end: 2021
+begin: 2018
+end: 2020
 logo: comet.svg
 kind: experience
+order: 4
 draft: false
 ---
 
-Another one
+Lead SRE / DevOps
