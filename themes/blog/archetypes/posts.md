@@ -1,8 +1,8 @@
 ---
 title: "{{ replace .Name '-' ' ' | title }}"
-date: {{ .Date }}
+date: { { .Date } }
 draft: true # Set 'false' to publish
 description: ""
 categories:
-- Uncategories
+  - Uncategories
 ---
