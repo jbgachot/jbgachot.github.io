@@ -6,12 +6,15 @@
       >
     </h1>
     <p class="grow-0 leading-7 text-xs font-medium custom-gray-dark">
-      {{ humanize .PublishDate.Day }} of {{ .PublishDate.Format "January 2006"
-      }}
+      {{ humanize .PublishDate.Day }} of
+      {{ .PublishDate.Format "January 2006" }}
     </p>
   </div>
   <div class="custom-gray-dark text-xs">
-    {{ if .Params.description }} {{ .Params.description }} {{ else if .Summary
-    }} {{ .Summary }} {{ end }}
+    {{ if .Params.description }}
+      {{ .Params.description }}
+    {{ else if .Summary }}
+      {{ .Summary }}
+    {{ end }}
   </div>
 </article>

@@ -1,30 +1,45 @@
-{{ define "main" }} {{ $pages := .Pages }}
-<div class="flex flex-col gap-1">
-  {{ partial "single/components/title/small" . }} {{ if .Content }}
-  <div class="custom-gray-dark">{{ .Content }}</div>
-  {{ end }}
-</div>
-
-<div class="p-7 block-section">
-  <div class="mb-5 rounded-2xl border border-zinc-100 p-6">
-    <h2 class="flex text-base font-semibold">
-      <!-- <IconIfNeeded class="h-6 w-6 flex-none" /> -->
-      <span class="ml-3 menu-selected pr-2">Experiences</span>
-    </h2>
-    {{ range where .Site.Pages "Section" "resume" }} {{ range (sort .Pages
-    ".Params.order" "desc") }} {{ if eq .Params.type "experience" }} {{ partial
-    "list/experience" . }} {{ end }} {{ end }} {{ end }}
+{{ define "main" }}
+  {{ $pages := .Pages }}
+  <div class="flex flex-col gap-1">
+    {{ partial "single/components/title/small" . }}
+    {{ if .Content }}
+      <div class="custom-gray-dark">{{ .Content }}</div>
+    {{ end }}
   </div>
 
-  <div class="rounded-2xl border border-zinc-100 p-6">
-    <h2 class="flex text-base font-semibold">
-      <!-- <IconIfNeeded class="h-6 w-6 flex-none" /> -->
-      <span class="ml-3 menu-selected pr-2">Education</span>
-    </h2>
-    {{ range where .Site.Pages "Section" "resume" }} {{ range .Pages }} {{ if eq
-    .Params.type "education" }} {{ partial "list/experience" . }} {{ end }} {{
-    end }} {{ end }}
-  </div>
-</div>
+  <div class="p-7 block-section">
+    <div class="mb-5 rounded-2xl border border-zinc-100 p-6">
+      <h2 class="flex text-base font-semibold">
+        <!-- <IconIfNeeded class="h-6 w-6 flex-none" /> -->
+        <span class="ml-3 menu-selected pr-2">Experiences</span>
+      </h2>
+      {{ range where .Site.Pages "Section" "resume" }}
+        {{ range (sort .Pages
+          ".Params.order" "desc")
+        }}
+          {{ if eq .Params.type "experience" }}
+            {{ partial
+              "list/experience" .
+            }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
 
+    <div class="rounded-2xl border border-zinc-100 p-6">
+      <h2 class="flex text-base font-semibold">
+        <!-- <IconIfNeeded class="h-6 w-6 flex-none" /> -->
+        <span class="ml-3 menu-selected pr-2">Education</span>
+      </h2>
+      {{ range where .Site.Pages "Section" "resume" }}
+        {{ range .Pages }}
+          {{ if eq
+            .Params.type "education"
+          }}
+            {{ partial "list/experience" . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
 {{ end }}

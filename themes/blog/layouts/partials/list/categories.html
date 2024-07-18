@@ -4,7 +4,8 @@
 >
   <p class="shadow-primary text-base text-center">⏺</p>
   <p class="mt-1 text-xs text-center">
-    {{ len .Pages }} post{{ if gt (len .Pages) 1 }}s{{ end }}
+    {{ len .Pages }}
+    post{{ if gt (len .Pages) 1 }}s{{ end }}
   </p>
   <p class="text-sm leading-5 font-semibold text-center">{{ .Title }}</p>
 </a>
