@@ -3,7 +3,8 @@ title: "Oopaya"
 begin: 2013
 end: 2016
 logo: oopaya.png
-kind: experience
+layout: resume
+type: experience
 order: 1
 draft: false
 ---

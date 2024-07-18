@@ -1,5 +1,6 @@
 ---
-title: "Work in Progress"
+title: "Welcome"
 draft: false
 ---
-This website is under construction. Come back later!
+
+🚧 Website under construction 🚧

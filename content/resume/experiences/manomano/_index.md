@@ -3,7 +3,8 @@ title: "Manomano"
 begin: 2021
 end: Present
 logo: manomano.svg
-kind: experience
+layout: resume
+type: experience
 order: 6
 draft: false
 ---

@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://jbgachot.github.io'
 copyright = "{year}"
 languageCode = 'en-us'
 theme = 'blog'
