@@ -7,13 +7,11 @@
 :root {
   --white: #FFFFFF;
   --light: #F5F8FA;
-  --primary: #20D489;
-  --secondary: #E4E6EF;
-  --success: #00B2FF;
-  --info: #5710B2;
-  --warning: #FFC700;
-  --danger: #F1416C;
-  --dark: #181C32;
+  --primary: #40FFDC;
+  --secondary: #00A9D4;
+  --tertiary: #1C3166;
+  --dark: #240047;
+  --black: #1C0021;
 }
 
 body {
@@ -21,36 +19,8 @@ body {
   background-color: #fbf9f6;
 }
 
-.bg-light-primary {
-  background-color: #e4fff4!important;
-}
-
-.bg-light-primary.hoverable:hover {
-  background-color: #c5ffe8!important
-}
-
-.bg-light-warning {
-  background-color: #fff8dd!important
-}
-
-.bg-light-warning.hoverable:hover {
-  background-color: #fff2be!important
-}
-
-.bg-light-success {
-  background-color: #f1faff!important
-}
-
-.bg-light-success.hoverable:hover {
-  background-color: #d2efff!important
-}
-
-.bg-light-danger {
-  background-color: #ffeff3!important
-}
-
-.bg-light-danger.hoverable:hover {
-  background-color: #ffd0dc!important
+.shadow-primary {
+  text-shadow: 3px -2px var(--primary);
 }
 
 .link-underlined {
@@ -67,6 +37,21 @@ body {
   background-size: 100% 100%;
   background-position: 0 100%;
   text-shadow: 2px -1px var(--primary);
+}
+
+.menu-selected {
+  color: var(--dark);
+  background-image: linear-gradient(180deg, transparent 65%, var(--primary) 0);
+}
+
+.menu-underlined {
+  color: var(--dark);
+  text-shadow: 0px 0px var(--primary);
+  transition: text-shadow .5s ease;
+}
+
+.menu-underlined:hover {
+  text-shadow: 1px -1px var(--primary);
 }
 
 @layer base {
