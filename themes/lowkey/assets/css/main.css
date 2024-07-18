@@ -4,10 +4,59 @@
 
 /* Custom */
 
+:root {
+  --white: #FFFFFF;
+  --light: #F5F8FA;
+  --primary: #20D489;
+  --secondary: #E4E6EF;
+  --success: #00B2FF;
+  --info: #5710B2;
+  --warning: #FFC700;
+  --danger: #F1416C;
+  --dark: #181C32;
+}
+
+body {
+  color: var(--dark);
+  background-color: #fbf9f6;
+}
+
+.bg-light-primary {
+  background-color: #e4fff4!important;
+}
+
+.bg-light-primary.hoverable:hover {
+  background-color: #c5ffe8!important
+}
+
+.bg-light-warning {
+  background-color: #fff8dd!important
+}
+
+.bg-light-warning.hoverable:hover {
+  background-color: #fff2be!important
+}
+
+.bg-light-success {
+  background-color: #f1faff!important
+}
+
+.bg-light-success.hoverable:hover {
+  background-color: #d2efff!important
+}
+
+.bg-light-danger {
+  background-color: #ffeff3!important
+}
+
+.bg-light-danger.hoverable:hover {
+  background-color: #ffd0dc!important
+}
+
 .link-underlined {
-  text-shadow: 0px 0px #40FFDC;
+  text-shadow: 0px 0px var(--primary);
   border-bottom-width: 0;
-  background-image: linear-gradient(180deg, transparent 65%, #40FFDC 0);
+  background-image: linear-gradient(180deg, transparent 65%, var(--primary) 0);
   background-size: 0 100%;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -17,7 +66,7 @@
 .link-underlined:hover {
   background-size: 100% 100%;
   background-position: 0 100%;
-  text-shadow: 2px -1px #40FFDC;
+  text-shadow: 2px -1px var(--primary);
 }
 
 @layer base {
