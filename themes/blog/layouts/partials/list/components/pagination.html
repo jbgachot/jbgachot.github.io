@@ -1,10 +1,10 @@
-{{ $paginator := .Paginator }}
-
+{{ $paginator := .Paginator }} {{ with $paginator }} {{ if or (.HasPrev)
+(.HasNext) }}
 <div class="pb-10 grid grid-cols-2 font-semibold">
   <!-- Previous page. -->
   <div>
-    {{ if $paginator.HasPrev }}
-    <a href="{{ $paginator.Prev.URL }}" class="inline-flex items-center gap-2">
+    {{ if .HasPrev }}
+    <a href="{{ .Prev.URL }}" class="inline-flex items-center gap-2">
       <span class="h-4 w-4 stroke-2">
         {{ partial "processor/svg" "arrow-left" }}
       </span>
@@ -15,8 +15,8 @@
 
   <div class="flex justify-end">
     <!-- Next page. -->
-    {{ if $paginator.HasNext }}
-    <a href="{{ $paginator.Next.URL }}" class="inline-flex items-center gap-2">
+    {{ if .HasNext }}
+    <a href="{{ .Next.URL }}" class="inline-flex items-center gap-2">
       Older Posts
       <span class="h-4 w-4 stroke-2">
         {{ partial "processor/svg" "arrow-right" }}
@@ -25,3 +25,4 @@
     {{ end }}
   </div>
 </div>
+{{ end }} {{ end }}

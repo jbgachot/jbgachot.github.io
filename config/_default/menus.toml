@@ -1,37 +1,37 @@
 [[main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 
-#[[main]]
-#    identifier = "posts"
-#    name = "Posts"
-#    url = "/posts"
-#    weight = 2
-#
-#[[main]]
-#    identifier = "categories"
-#    name = "Categories"
-#    url = "/categories"
-#    weight = 3
+# [[main]]
+# identifier = "posts"
+# name = "Posts"
+# url = "/posts"
+# weight = 2
+
+# [[main]]
+# identifier = "categories"
+# name = "Categories"
+# url = "/categories"
+# weight = 3
 
 [[main]]
-    identifier = "resume"
-    name = "Resume"
-    url = "/resume"
-    weight = 4
+identifier = "resume"
+name = "Resume"
+url = "/resume"
+weight = 4
 
 # Social Media Configuration
 
 [[social]]
-    identifier = "linkedin"
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/in/jbgachot"
-    weight = 1
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jbgachot"
+weight = 1
 
 [[social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/jbgachot"
-    weight = 2
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/jbgachot"
+weight = 2
