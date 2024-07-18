@@ -11,9 +11,9 @@
       <dt class="sr-only">Company or School</dt>
       <dd class="w-full flex-none text-sm font-semibold">{{ .Title }}</dd>
       <dt class="sr-only">Role</dt>
-      <dd class="text-xs">{{ .Content | emojify }}</dd>
+      <dd class="text-xs custom-gray-dark">{{ .Content | emojify }}</dd>
       <dt class="sr-only">Date</dt>
-      <dd class="ml-auto text-xs font-medium custom-gray">
+      <dd class="ml-auto text-xs font-medium custom-gray-dark">
         <time datetime="{{ .Params.begin }}"> {{ .Params.begin }} </time>
         <span aria-hidden="true">-</span>
         <time datetime="{{ .Params.end }}"> {{ .Params.end }} </time>

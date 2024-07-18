@@ -1,1 +1,5 @@
-<h2 class="text-4xl leading-snug font-bold text-gray-900">{{ .Title }}</h2>
+<h2
+  class="text-4xl leading-snug font-bold text-center menu-selected w-fit pr-8"
+>
+  {{ if .Params.header }}{{ .Params.header }}{{ else }}{{ .Title }}{{ end }}
+</h2>

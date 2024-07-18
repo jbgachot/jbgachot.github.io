@@ -13,18 +13,18 @@ disqusShortname = ""
 [emoji]
 enableEmoji = true
 
- # giscus is a comment system based on GitHub Discussions. see https://giscus.app
-[giscus]       
-    enable = false
-    repo = ""
-    repoId = ""
-    category = "Announcements"
-    categoryId = ""
-    # mapping = "pathname"  # comment value is the default value
-    # strict = 0
-    # reactionsEnabled = 1
-    # emitMetadata = 0
-    # inputPosition = "top"
-    # theme = "light"
-    # lang = "zh-CN"
-    # lazyLoading = true
+# giscus is a comment system based on GitHub Discussions. see https://giscus.app
+[giscus]
+enable = false
+# repo = ""
+# repoId = ""
+# category = "Announcements"
+# categoryId = ""
+# mapping = "pathname"  # comment value is the default value
+# strict = 0
+# reactionsEnabled = 1
+# emitMetadata = 0
+# inputPosition = "top"
+# theme = "light"
+# lang = "zh-CN"
+# lazyLoading = true
