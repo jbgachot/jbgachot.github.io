@@ -15,7 +15,7 @@
         </h2>
         {{ range where .Site.Pages "Section" "resume" }}
         {{ range (sort .Pages ".Params.order" "desc") }}
-                {{ if eq .Params.kind "experience" }}
+                {{ if eq .Params.type "experience" }}
                     {{ partial "list/experience" . }}
                 {{ end }}
         {{ end }}
@@ -29,7 +29,7 @@
         </h2>
         {{ range where .Site.Pages "Section" "resume" }}
         {{ range .Pages }}
-                {{ if eq .Params.kind "education" }}
+                {{ if eq .Params.type "education" }}
                     {{ partial "list/experience" . }}
                 {{ end }}
         {{ end }}
@@ -38,4 +38,3 @@
 </div>
 
 {{ end }}
-
