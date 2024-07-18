@@ -1,11 +1,13 @@
-{{ define "main" }} {{ $pages := .Pages }}
-<div class="flex flex-col gap-1">
-  {{ partial "single/components/title/small" . }} {{ if .Content }}
-  <div class="custom-gray-dark">{{ .Content }}</div>
-  {{ end }}
-</div>
+{{ define "main" }}
+  {{ $pages := .Pages }}
+  <div class="flex flex-col gap-1">
+    {{ partial "single/components/title/small" . }}
+    {{ if .Content }}
+      <div class="custom-gray-dark">{{ .Content }}</div>
+    {{ end }}
+  </div>
 
-<section class="py-10 grid grid-cols-2 sm:grid-cols-4 gap-10">
-  {{ range $index, $pages}} {{ partial "list/categories" . }} {{ end }}
-</section>
+  <section class="py-10 grid grid-cols-2 sm:grid-cols-4 gap-10">
+    {{ range $index, $pages }}{{ partial "list/categories" . }}{{ end }}
+  </section>
 {{ end }}

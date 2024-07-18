@@ -1,9 +1,12 @@
-{{ with (.GetTerms "categories") }} — {{ range . }}
-<a
-  class="hover:text-gray-500"
-  href="{{ .RelPermalink }}"
-  alt="{{ .LinkTitle }}"
->
-  {{ .LinkTitle }}
-</a>
-{{ end }} {{ end }}
+{{ with (.GetTerms "categories") }}
+  —
+  {{ range . }}
+    <a
+      class="hover:text-gray-500"
+      href="{{ .RelPermalink }}"
+      alt="{{ .LinkTitle }}"
+    >
+      {{ .LinkTitle }}
+    </a>
+  {{ end }}
+{{ end }}

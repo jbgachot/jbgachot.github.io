@@ -1,13 +1,11 @@
 {{ define "main" }}
-
-<article class="flex flex-col gap-5">
-  <header class="flex flex-col gap-2">
-    {{ partial "single/components/title/large" . }}
-  </header>
-  <section class="custom-gray-dark">
-    Looks like you've followed a broken link or entered a URL that doesn't exist
-    on this site.
-  </section>
-</article>
-
+  <article class="flex flex-col gap-5">
+    <header class="flex flex-col gap-2">
+      {{ partial "single/components/title/large" . }}
+    </header>
+    <section class="custom-gray-dark">
+      Looks like you've followed a broken link or entered a URL that doesn't
+      exist on this site.
+    </section>
+  </article>
 {{ end }}

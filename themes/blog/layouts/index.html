@@ -1,2 +1,7 @@
-{{ define "main" }} {{ if site.Params.isSinglePage }} {{ partial
-"single/homepage" . }} {{ end }} {{ end }}
+{{ define "main" }}
+  {{ if site.Params.isSinglePage }}
+    {{ partial
+      "single/homepage" .
+    }}
+  {{ end }}
+{{ end }}

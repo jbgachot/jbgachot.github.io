@@ -1,13 +1,15 @@
 {{ with (.GetTerms "tags") }}
-<div class="pb-14 taxonomy-list tags-list custom-gray-dark text-sm font-medium">
-  {{ range . }}
-  <a
-    class="bg-gray-100 py-2 px-3 rounded-lg"
-    href="{{ .RelPermalink }}"
-    alt="{{ .LinkTitle }}"
+  <div
+    class="pb-14 taxonomy-list tags-list custom-gray-dark text-sm font-medium"
   >
-    {{ .LinkTitle }}
-  </a>
-  {{ end }}
-</div>
+    {{ range . }}
+      <a
+        class="bg-gray-100 py-2 px-3 rounded-lg"
+        href="{{ .RelPermalink }}"
+        alt="{{ .LinkTitle }}"
+      >
+        {{ .LinkTitle }}
+      </a>
+    {{ end }}
+  </div>
 {{ end }}

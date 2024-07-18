@@ -1,3 +1,7 @@
 <h2 class="text-2xl font-extrabold menu-selected w-fit pr-4">
-  {{ if .Params.header }}{{ .Params.header }}{{ else }}{{ .Title }}{{ end }}
+  {{ if .Params.header }}
+    {{ .Params.header }}
+  {{ else }}
+    {{ .Title }}
+  {{ end }}
 </h2>
