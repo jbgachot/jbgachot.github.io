@@ -5,15 +5,15 @@
 /* Custom */
 
 :root {
-  --white: #FFFFFF;
-  --light: #F5F8FA;
-  --primary: #40FFDC;
-  --secondary: #00A9D4;
-  --tertiary: #1C3166;
+  --white: #ffffff;
+  --light: #f5f8fa;
+  --primary: #40ffdc;
+  --secondary: #00a9d4;
+  --tertiary: #1c3166;
   --dark: #240047;
-  --black: #1C0021;
-  --gray: #7D7483;
-  --gray-light: #B2A8B8;
+  --black: #1c0021;
+  --gray: #7d7483;
+  --gray-light: #b2a8b8;
 }
 
 body {
@@ -25,7 +25,8 @@ body {
   text-shadow: 3px -2px var(--primary);
 }
 
-.custom-gray, .custom-gray-link {
+.custom-gray,
+.custom-gray-link {
   color: var(--gray-light);
 }
 
@@ -44,7 +45,9 @@ body {
   background-size: 0 100%;
   background-position: 0 100%;
   background-repeat: no-repeat;
-  transition: background-size .5s ease, text-shadow .5s ease;
+  transition:
+    background-size 0.5s ease,
+    text-shadow 0.5s ease;
 }
 
 .link-underlined:hover {
@@ -60,7 +63,10 @@ body {
   background-size: 5% 5%;
   background-position: 50% 17%;
   background-repeat: no-repeat;
-  transition: background-position .5s ease, background-size .5s ease, text-shadow .5s ease;
+  transition:
+    background-position 0.5s ease,
+    background-size 0.5s ease,
+    text-shadow 0.5s ease;
 }
 
 .card-borderlined:hover {
@@ -77,7 +83,7 @@ body {
 .menu-underlined {
   color: var(--dark);
   text-shadow: 0px 0px var(--primary);
-  transition: text-shadow .5s ease;
+  transition: text-shadow 0.5s ease;
 }
 
 .menu-underlined:hover {
@@ -89,370 +95,661 @@ body {
 
   /** Montserrat Thin **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 100;
-      font-style: normal;
-      src: url("../fonts/Montserrat-Thin.woff2") format("woff2"),
-          url("../fonts/Montserrat-Thin.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-Thin.woff2") format("woff2"),
+      url("../fonts/Montserrat-Thin.woff") format("woff");
   }
 
   /** Montserrat Thin-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 100;
-      font-style: italic;
-      src: url("../fonts/Montserrat-ThinItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-ThinItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-ThinItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-ThinItalic.woff") format("woff");
   }
 
   /** Montserrat ExtraLight **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 200;
-      font-style: normal;
-      src: url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"),
-          url("../fonts/Montserrat-ExtraLight.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"),
+      url("../fonts/Montserrat-ExtraLight.woff") format("woff");
   }
 
   /** Montserrat ExtraLight-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 200;
-      font-style: italic;
-      src: url("../fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-ExtraLightItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 200;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-ExtraLightItalic.woff") format("woff");
   }
 
   /** Montserrat Light **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 300;
-      font-style: normal;
-      src: url("../fonts/Montserrat-Light.woff2") format("woff2"),
-          url("../fonts/Montserrat-Light.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-Light.woff2") format("woff2"),
+      url("../fonts/Montserrat-Light.woff") format("woff");
   }
 
   /** Montserrat Light-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 300;
-      font-style: italic;
-      src: url("../fonts/Montserrat-LightItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-LightItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-LightItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-LightItalic.woff") format("woff");
   }
 
   /** Montserrat Regular **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 400;
-      font-style: normal;
-      src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
-          url("../fonts/Montserrat-Regular.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+      url("../fonts/Montserrat-Regular.woff") format("woff");
   }
 
   /** Montserrat Regular-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 400;
-      font-style: italic;
-      src: url("../fonts/Montserrat-Italic.woff2") format("woff2"),
-          url("../fonts/Montserrat-Italic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-Italic.woff2") format("woff2"),
+      url("../fonts/Montserrat-Italic.woff") format("woff");
   }
 
   /** Montserrat Medium **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 500;
-      font-style: normal;
-      src: url("../fonts/Montserrat-Medium.woff2") format("woff2"),
-          url("../fonts/Montserrat-Medium.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+      url("../fonts/Montserrat-Medium.woff") format("woff");
   }
 
   /** Montserrat Medium-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 500;
-      font-style: italic;
-      src: url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-MediumItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-MediumItalic.woff") format("woff");
   }
 
   /** Montserrat SemiBold **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 600;
-      font-style: normal;
-      src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-          url("../fonts/Montserrat-SemiBold.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+      url("../fonts/Montserrat-SemiBold.woff") format("woff");
   }
 
   /** Montserrat SemiBold-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 600;
-      font-style: italic;
-      src: url("../fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-SemiBoldItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-SemiBoldItalic.woff") format("woff");
   }
 
   /** Montserrat Bold **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 700;
-      font-style: normal;
-      src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
-          url("../fonts/Montserrat-Bold.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+      url("../fonts/Montserrat-Bold.woff") format("woff");
   }
 
   /** Montserrat Bold-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 700;
-      font-style: italic;
-      src: url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-BoldItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-BoldItalic.woff") format("woff");
   }
 
   /** Montserrat ExtraBold **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 800;
-      font-style: normal;
-      src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
-          url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+      url("../fonts/Montserrat-ExtraBold.woff") format("woff");
   }
 
   /** Montserrat ExtraBold-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 800;
-      font-style: italic;
-      src: url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
   }
 
   /** Montserrat Black **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 900;
-      font-style: normal;
-      src: url("../fonts/Montserrat-Black.woff2") format("woff2"),
-          url("../fonts/Montserrat-Black.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: normal;
+    src:
+      url("../fonts/Montserrat-Black.woff2") format("woff2"),
+      url("../fonts/Montserrat-Black.woff") format("woff");
   }
 
   /** Montserrat Black-Italic **/
   @font-face {
-      font-family: "Montserrat";
-      font-weight: 900;
-      font-style: italic;
-      src: url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"),
-          url("../fonts/Montserrat-BlackItalic.woff") format("woff");
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-style: italic;
+    src:
+      url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"),
+      url("../fonts/Montserrat-BlackItalic.woff") format("woff");
   }
 }
 
 @layer utilities {
-    .content a {
-      @apply font-bold underline;
-    }
+  .content a {
+    @apply font-bold underline;
+  }
 
-    .content p, .content hr, .content pre, .content dl {
-      @apply mb-5;
-    }
+  .content p,
+  .content hr,
+  .content pre,
+  .content dl {
+    @apply mb-5;
+  }
 
-    .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
-      @apply font-bold text-gray-900 mb-5 pt-2;
-    }
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    @apply font-bold text-gray-900 mb-5 pt-2;
+  }
 
-    .content h1 {
-      @apply text-4xl leading-10;
-    }
+  .content h1 {
+    @apply text-4xl leading-10;
+  }
 
-    .content h2 {
-      @apply text-3xl leading-10;
-    }
+  .content h2 {
+    @apply text-3xl leading-10;
+  }
 
-    .content h3 {
-      @apply text-2xl;
-    }
+  .content h3 {
+    @apply text-2xl;
+  }
 
-    .content h4 {
-      @apply text-xl;
-    }
+  .content h4 {
+    @apply text-xl;
+  }
 
-    .content h5 {
-      @apply text-lg;
-    }
+  .content h5 {
+    @apply text-lg;
+  }
 
-    .content h6 {
-      @apply text-base;
-    }
+  .content h6 {
+    @apply text-base;
+  }
 
-    .content blockquote {
-      @apply text-xl text-gray-500 px-10 pt-10 pb-5 mt-7 mb-5 rounded-lg border
-    }
+  .content blockquote {
+    @apply text-xl text-gray-500 px-10 pt-10 pb-5 mt-7 mb-5 rounded-lg border;
+  }
 
-    .content ol, .content ul {
-      @apply grid gap-2 mb-5 ml-6;
-    }
+  .content ol,
+  .content ul {
+    @apply grid gap-2 mb-5 ml-6;
+  }
 
-    .content .footnotes ol {
-      @apply block
-    }
+  .content .footnotes ol {
+    @apply block;
+  }
 
-    .content .footnotes li {
-      @apply mb-3
-    }
+  .content .footnotes li {
+    @apply mb-3;
+  }
 
-    .content ol {
-      @apply list-decimal
-    }
+  .content ol {
+    @apply list-decimal;
+  }
 
-    .content ul {
-      @apply list-disc
-    }
-    
-    .content code {
-      @apply px-2 py-1;
-    }
+  .content ul {
+    @apply list-disc;
+  }
 
-    .content code.language-text, .highlight code {
-      @apply px-0
-    }
+  .content code {
+    @apply px-2 py-1;
+  }
 
-    .content table {
-      @apply w-full border rounded-lg border-separate border-spacing-0 mb-5;
-    }
+  .content code.language-text,
+  .highlight code {
+    @apply px-0;
+  }
 
-    .content thead th {
-      @apply border-b-2 border-r last:border-r-0 py-2 px-3;
-    }
+  .content table {
+    @apply w-full border rounded-lg border-separate border-spacing-0 mb-5;
+  }
 
-    .content tbody td {
-      @apply py-2 px-3 border-b text-base border-r last:border-r-0;
-    }
+  .content thead th {
+    @apply border-b-2 border-r last:border-r-0 py-2 px-3;
+  }
 
-    .content tbody tr:last-child td {
-      @apply border-b-0
-    }
+  .content tbody td {
+    @apply py-2 px-3 border-b text-base border-r last:border-r-0;
+  }
 
-    .content pre {
-      @apply rounded-lg border p-5 overflow-auto
-    }
+  .content tbody tr:last-child td {
+    @apply border-b-0;
+  }
 
-    .content pre code {
-      @apply bg-transparent border-0
-    }
+  .content pre {
+    @apply rounded-lg border p-5 overflow-auto;
+  }
 
-    .content .footnotes {
-      @apply text-sm
-    }
-    .content .footnotes p {
-      @apply inline-block mb-0
-    }
+  .content pre code {
+    @apply bg-transparent border-0;
+  }
 
-    .content dt {
-      @apply font-bold italic
-    }
+  .content .footnotes {
+    @apply text-sm;
+  }
+  .content .footnotes p {
+    @apply inline-block mb-0;
+  }
 
-    .content dd {
-      @apply pl-10
-    }
+  .content dt {
+    @apply font-bold italic;
+  }
 
-    span.begin-task-list + ul {
-      list-style: none;
-    }
-    .taxonomy-list {
-      @apply flex flex-row flex-wrap gap-x-2 gap-y-6;
-    }
-    .tags-list {
-      @apply gap-y-2;
-    }
+  .content dd {
+    @apply pl-10;
+  }
+
+  span.begin-task-list + ul {
+    list-style: none;
+  }
+  .taxonomy-list {
+    @apply flex flex-row flex-wrap gap-x-2 gap-y-6;
+  }
+  .tags-list {
+    @apply gap-y-2;
+  }
 }
 
 /** =================== SYNTAX HIGHLIGHTER =================== **/
-/* Background */ .bg { color: #f8f8f2; background-color: #282a36; }
-/* PreWrapper */ .chroma { color: #f8f8f2; background-color: #282a36; }
-/* Other */ .chroma .x {  }
-/* Error */ .chroma .err {  }
-/* CodeLine */ .chroma .cl {  }
-/* LineLink */ .chroma .lnlinks { outline: none; text-decoration: none; color: inherit }
-/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
-/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
-/* LineHighlight */ .chroma .hl { background-color: #ffffcc }
-/* LineNumbersTable */ .chroma .lnt { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
-/* LineNumbers */ .chroma .ln { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
-/* Line */ .chroma .line { display: flex; }
-/* Keyword */ .chroma .k { color: #ff79c6 }
-/* KeywordConstant */ .chroma .kc { color: #ff79c6 }
-/* KeywordDeclaration */ .chroma .kd { color: #8be9fd; font-style: italic }
-/* KeywordNamespace */ .chroma .kn { color: #ff79c6 }
-/* KeywordPseudo */ .chroma .kp { color: #ff79c6 }
-/* KeywordReserved */ .chroma .kr { color: #ff79c6 }
-/* KeywordType */ .chroma .kt { color: #8be9fd }
-/* Name */ .chroma .n {  }
-/* NameAttribute */ .chroma .na { color: #50fa7b }
-/* NameBuiltin */ .chroma .nb { color: #8be9fd; font-style: italic }
-/* NameBuiltinPseudo */ .chroma .bp {  }
-/* NameClass */ .chroma .nc { color: #50fa7b }
-/* NameConstant */ .chroma .no {  }
-/* NameDecorator */ .chroma .nd {  }
-/* NameEntity */ .chroma .ni {  }
-/* NameException */ .chroma .ne {  }
-/* NameFunction */ .chroma .nf { color: #50fa7b }
-/* NameFunctionMagic */ .chroma .fm {  }
-/* NameLabel */ .chroma .nl { color: #8be9fd; font-style: italic }
-/* NameNamespace */ .chroma .nn {  }
-/* NameOther */ .chroma .nx {  }
-/* NameProperty */ .chroma .py {  }
-/* NameTag */ .chroma .nt { color: #ff79c6 }
-/* NameVariable */ .chroma .nv { color: #8be9fd; font-style: italic }
-/* NameVariableClass */ .chroma .vc { color: #8be9fd; font-style: italic }
-/* NameVariableGlobal */ .chroma .vg { color: #8be9fd; font-style: italic }
-/* NameVariableInstance */ .chroma .vi { color: #8be9fd; font-style: italic }
-/* NameVariableMagic */ .chroma .vm {  }
-/* Literal */ .chroma .l {  }
-/* LiteralDate */ .chroma .ld {  }
-/* LiteralString */ .chroma .s { color: #f1fa8c }
-/* LiteralStringAffix */ .chroma .sa { color: #f1fa8c }
-/* LiteralStringBacktick */ .chroma .sb { color: #f1fa8c }
-/* LiteralStringChar */ .chroma .sc { color: #f1fa8c }
-/* LiteralStringDelimiter */ .chroma .dl { color: #f1fa8c }
-/* LiteralStringDoc */ .chroma .sd { color: #f1fa8c }
-/* LiteralStringDouble */ .chroma .s2 { color: #f1fa8c }
-/* LiteralStringEscape */ .chroma .se { color: #f1fa8c }
-/* LiteralStringHeredoc */ .chroma .sh { color: #f1fa8c }
-/* LiteralStringInterpol */ .chroma .si { color: #f1fa8c }
-/* LiteralStringOther */ .chroma .sx { color: #f1fa8c }
-/* LiteralStringRegex */ .chroma .sr { color: #f1fa8c }
-/* LiteralStringSingle */ .chroma .s1 { color: #f1fa8c }
-/* LiteralStringSymbol */ .chroma .ss { color: #f1fa8c }
-/* LiteralNumber */ .chroma .m { color: #bd93f9 }
-/* LiteralNumberBin */ .chroma .mb { color: #bd93f9 }
-/* LiteralNumberFloat */ .chroma .mf { color: #bd93f9 }
-/* LiteralNumberHex */ .chroma .mh { color: #bd93f9 }
-/* LiteralNumberInteger */ .chroma .mi { color: #bd93f9 }
-/* LiteralNumberIntegerLong */ .chroma .il { color: #bd93f9 }
-/* LiteralNumberOct */ .chroma .mo { color: #bd93f9 }
-/* Operator */ .chroma .o { color: #ff79c6 }
-/* OperatorWord */ .chroma .ow { color: #ff79c6 }
-/* Punctuation */ .chroma .p {  }
-/* Comment */ .chroma .c { color: #6272a4 }
-/* CommentHashbang */ .chroma .ch { color: #6272a4 }
-/* CommentMultiline */ .chroma .cm { color: #6272a4 }
-/* CommentSingle */ .chroma .c1 { color: #6272a4 }
-/* CommentSpecial */ .chroma .cs { color: #6272a4 }
-/* CommentPreproc */ .chroma .cp { color: #ff79c6 }
-/* CommentPreprocFile */ .chroma .cpf { color: #ff79c6 }
-/* Generic */ .chroma .g {  }
-/* GenericDeleted */ .chroma .gd { color: #ff5555 }
-/* GenericEmph */ .chroma .ge { text-decoration: underline }
-/* GenericError */ .chroma .gr {  }
-/* GenericHeading */ .chroma .gh { font-weight: bold }
-/* GenericInserted */ .chroma .gi { color: #50fa7b; font-weight: bold }
-/* GenericOutput */ .chroma .go { color: #44475a }
-/* GenericPrompt */ .chroma .gp {  }
-/* GenericStrong */ .chroma .gs {  }
-/* GenericSubheading */ .chroma .gu { font-weight: bold }
-/* GenericTraceback */ .chroma .gt {  }
-/* GenericUnderline */ .chroma .gl { text-decoration: underline }
-/* TextWhitespace */ .chroma .w {  }
+/* Background */
+.bg {
+  color: #f8f8f2;
+  background-color: #282a36;
+}
+/* PreWrapper */
+.chroma {
+  color: #f8f8f2;
+  background-color: #282a36;
+}
+/* Other */
+.chroma .x {
+}
+/* Error */
+.chroma .err {
+}
+/* CodeLine */
+.chroma .cl {
+}
+/* LineLink */
+.chroma .lnlinks {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* LineHighlight */
+.chroma .hl {
+  background-color: #ffffcc;
+}
+/* LineNumbersTable */
+.chroma .lnt {
+  white-space: pre;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+/* LineNumbers */
+.chroma .ln {
+  white-space: pre;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+/* Line */
+.chroma .line {
+  display: flex;
+}
+/* Keyword */
+.chroma .k {
+  color: #ff79c6;
+}
+/* KeywordConstant */
+.chroma .kc {
+  color: #ff79c6;
+}
+/* KeywordDeclaration */
+.chroma .kd {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* KeywordNamespace */
+.chroma .kn {
+  color: #ff79c6;
+}
+/* KeywordPseudo */
+.chroma .kp {
+  color: #ff79c6;
+}
+/* KeywordReserved */
+.chroma .kr {
+  color: #ff79c6;
+}
+/* KeywordType */
+.chroma .kt {
+  color: #8be9fd;
+}
+/* Name */
+.chroma .n {
+}
+/* NameAttribute */
+.chroma .na {
+  color: #50fa7b;
+}
+/* NameBuiltin */
+.chroma .nb {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* NameBuiltinPseudo */
+.chroma .bp {
+}
+/* NameClass */
+.chroma .nc {
+  color: #50fa7b;
+}
+/* NameConstant */
+.chroma .no {
+}
+/* NameDecorator */
+.chroma .nd {
+}
+/* NameEntity */
+.chroma .ni {
+}
+/* NameException */
+.chroma .ne {
+}
+/* NameFunction */
+.chroma .nf {
+  color: #50fa7b;
+}
+/* NameFunctionMagic */
+.chroma .fm {
+}
+/* NameLabel */
+.chroma .nl {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* NameNamespace */
+.chroma .nn {
+}
+/* NameOther */
+.chroma .nx {
+}
+/* NameProperty */
+.chroma .py {
+}
+/* NameTag */
+.chroma .nt {
+  color: #ff79c6;
+}
+/* NameVariable */
+.chroma .nv {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* NameVariableClass */
+.chroma .vc {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* NameVariableGlobal */
+.chroma .vg {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* NameVariableInstance */
+.chroma .vi {
+  color: #8be9fd;
+  font-style: italic;
+}
+/* NameVariableMagic */
+.chroma .vm {
+}
+/* Literal */
+.chroma .l {
+}
+/* LiteralDate */
+.chroma .ld {
+}
+/* LiteralString */
+.chroma .s {
+  color: #f1fa8c;
+}
+/* LiteralStringAffix */
+.chroma .sa {
+  color: #f1fa8c;
+}
+/* LiteralStringBacktick */
+.chroma .sb {
+  color: #f1fa8c;
+}
+/* LiteralStringChar */
+.chroma .sc {
+  color: #f1fa8c;
+}
+/* LiteralStringDelimiter */
+.chroma .dl {
+  color: #f1fa8c;
+}
+/* LiteralStringDoc */
+.chroma .sd {
+  color: #f1fa8c;
+}
+/* LiteralStringDouble */
+.chroma .s2 {
+  color: #f1fa8c;
+}
+/* LiteralStringEscape */
+.chroma .se {
+  color: #f1fa8c;
+}
+/* LiteralStringHeredoc */
+.chroma .sh {
+  color: #f1fa8c;
+}
+/* LiteralStringInterpol */
+.chroma .si {
+  color: #f1fa8c;
+}
+/* LiteralStringOther */
+.chroma .sx {
+  color: #f1fa8c;
+}
+/* LiteralStringRegex */
+.chroma .sr {
+  color: #f1fa8c;
+}
+/* LiteralStringSingle */
+.chroma .s1 {
+  color: #f1fa8c;
+}
+/* LiteralStringSymbol */
+.chroma .ss {
+  color: #f1fa8c;
+}
+/* LiteralNumber */
+.chroma .m {
+  color: #bd93f9;
+}
+/* LiteralNumberBin */
+.chroma .mb {
+  color: #bd93f9;
+}
+/* LiteralNumberFloat */
+.chroma .mf {
+  color: #bd93f9;
+}
+/* LiteralNumberHex */
+.chroma .mh {
+  color: #bd93f9;
+}
+/* LiteralNumberInteger */
+.chroma .mi {
+  color: #bd93f9;
+}
+/* LiteralNumberIntegerLong */
+.chroma .il {
+  color: #bd93f9;
+}
+/* LiteralNumberOct */
+.chroma .mo {
+  color: #bd93f9;
+}
+/* Operator */
+.chroma .o {
+  color: #ff79c6;
+}
+/* OperatorWord */
+.chroma .ow {
+  color: #ff79c6;
+}
+/* Punctuation */
+.chroma .p {
+}
+/* Comment */
+.chroma .c {
+  color: #6272a4;
+}
+/* CommentHashbang */
+.chroma .ch {
+  color: #6272a4;
+}
+/* CommentMultiline */
+.chroma .cm {
+  color: #6272a4;
+}
+/* CommentSingle */
+.chroma .c1 {
+  color: #6272a4;
+}
+/* CommentSpecial */
+.chroma .cs {
+  color: #6272a4;
+}
+/* CommentPreproc */
+.chroma .cp {
+  color: #ff79c6;
+}
+/* CommentPreprocFile */
+.chroma .cpf {
+  color: #ff79c6;
+}
+/* Generic */
+.chroma .g {
+}
+/* GenericDeleted */
+.chroma .gd {
+  color: #ff5555;
+}
+/* GenericEmph */
+.chroma .ge {
+  text-decoration: underline;
+}
+/* GenericError */
+.chroma .gr {
+}
+/* GenericHeading */
+.chroma .gh {
+  font-weight: bold;
+}
+/* GenericInserted */
+.chroma .gi {
+  color: #50fa7b;
+  font-weight: bold;
+}
+/* GenericOutput */
+.chroma .go {
+  color: #44475a;
+}
+/* GenericPrompt */
+.chroma .gp {
+}
+/* GenericStrong */
+.chroma .gs {
+}
+/* GenericSubheading */
+.chroma .gu {
+  font-weight: bold;
+}
+/* GenericTraceback */
+.chroma .gt {
+}
+/* GenericUnderline */
+.chroma .gl {
+  text-decoration: underline;
+}
+/* TextWhitespace */
+.chroma .w {
+}
