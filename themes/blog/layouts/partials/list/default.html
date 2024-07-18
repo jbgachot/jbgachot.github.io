@@ -1,13 +1,17 @@
 <article class="flex flex-col gap-1">
-    <div class="flex flex-wrap w-full">
-        <h1 class="grow text-xl font-bold"> <a class="link-underlined" href=" {{ .Permalink }} ">{{ .Title }} <span class="shadow-primary text-base">⏺</span></a></h1>
-        <p class="grow-0 text-sm leading-7">{{ humanize .PublishDate.Day }} of {{ .PublishDate.Format "January 2006" }}</p>
-    </div>
-    <div class="text-gray-600 text-xs">
-    {{ if .Params.description }}
-    {{ .Params.description }}    
-    {{ else if .Summary  }}
-    {{ .Summary }}
-    {{ end }}
-    </div>
+  <div class="flex flex-wrap w-full">
+    <h1 class="grow text-xl font-bold">
+      <a class="link-underlined" href=" {{ .Permalink }} "
+        >{{ .Title }} <span class="shadow-primary text-base">⏺</span></a
+      >
+    </h1>
+    <p class="grow-0 text-sm leading-7">
+      {{ humanize .PublishDate.Day }} of {{ .PublishDate.Format "January 2006"
+      }}
+    </p>
+  </div>
+  <div class="text-gray-600 text-xs">
+    {{ if .Params.description }} {{ .Params.description }} {{ else if .Summary
+    }} {{ .Summary }} {{ end }}
+  </div>
 </article>
