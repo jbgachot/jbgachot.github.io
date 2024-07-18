@@ -4,7 +4,8 @@
   "description": "My personal website.",
   "main": "index.js",
   "scripts": {
-    "lint": "prettier **/*.html i18n/* data/* **/*.md --check",
+    "lint": "prettier '**/*.html' '**/*.md' --check",
+    "lint:fix": "prettier '**/*.html' '**/*.md' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
