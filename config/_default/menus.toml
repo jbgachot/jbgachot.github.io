@@ -17,17 +17,10 @@
     weight = 3
 
 [[main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags"
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume"
     weight = 4
-
-[[main]]
-    identifier = "donate"
-    name = "Donate"
-    url = "https://ko-fi.com/nixentric"
-    weight = 5
-
 
 # Social Media Configuration
 

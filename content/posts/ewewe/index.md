@@ -1,8 +1,8 @@
 ---
-title: "Markdown Cheat Sheet - A Python dictionary"
+title: "Markdown Cheat 2"
 draft: false
 date: 2022-08-27T09:16:45.000Z
-description: "A Python dictionary is like a JavaScript ob e ewewe wqeqdlqwe  qwek ject – it’s a sequence of key:value pairs. So, you can create them like this:"
+description: "It’s a sequence of key:value pairs. So, you can create them like this:"
 categories:
 - Hello
 ---
