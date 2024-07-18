@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Custom */
 
@@ -14,6 +12,11 @@
   --black: #1c0021;
   --gray: #7d7483;
   --gray-light: #b2a8b8;
+}
+
+html {
+  @apply antialiased;
+  font-family: montserrat, system-ui, sans-serif;
 }
 
 body {

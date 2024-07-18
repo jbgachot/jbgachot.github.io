@@ -21,3 +21,7 @@ noClasses = false
 
 [taxonomies]
 category = 'categories'
+
+[[build.cachebusters]]
+source = 'layouts/.*'
+target = 'css'
