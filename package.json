@@ -1,7 +1,7 @@
 {
-  "name": "lowkey",
-  "version": "1.1.0",
-  "description": "A Clean and Simple Hugo theme inspired by Adam Wathan's (https://adamwathan.me/) Website.",
+  "name": "jbgachot-resume",
+  "version": "1.0.0",
+  "description": "My personal website.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,17 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/nixentric/Lowkey-Hugo-Theme.git"
   },
-  "keywords": [
-    "hugo",
-    "hugo-themes",
-    "clean-themes"
-  ],
-  "author": "Nixentric",
+  "author": "Jean-Brice Gachot",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nixentric/Lowkey-Hugo-Theme/issues"
-  },
-  "homepage": "https://github.com/nixentric/Lowkey-Hugo-Theme#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cssnano": "^5.1.14",
