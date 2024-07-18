@@ -1,7 +1,7 @@
 <article class="flex flex-col gap-1">
     <div class="flex flex-wrap w-full">
         <h1 class="grow text-xl font-bold"> <a class="link-underlined" href=" {{ .Permalink }} ">{{ .Title }}</a></h1>
-        <h1 class="grow-0 text-xl">{{ humanize .PublishDate.Day }} of {{ .PublishDate.Format "January 2006" }}</h1>
+        <p class="grow-0 text-sm leading-7">{{ humanize .PublishDate.Day }} of {{ .PublishDate.Format "January 2006" }}</p>
     </div>
     <div class="text-gray-600">
     {{ if .Params.description }}
