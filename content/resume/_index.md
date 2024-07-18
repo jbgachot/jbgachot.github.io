@@ -5,4 +5,4 @@ type: resume
 layout: "home"
 ---
 
-test
+My Resume
