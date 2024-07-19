@@ -1,4 +1,4 @@
-<ol class="mt-6 space-y-4">
+<ol class="mt-4 space-y-4">
   <li key="1" class="flex gap-4">
     {{ with .Page.Resources.GetMatch (.Params.logo) }}
       <div
@@ -11,7 +11,7 @@
       <dt class="sr-only">Company or School</dt>
       <dd class="w-full flex-none text-sm font-semibold">{{ .Title }}</dd>
       <dt class="sr-only">Role</dt>
-      <dd class="text-xs custom-gray-dark">{{ .Content | emojify }}</dd>
+      <dd class="mb-2 text-xs custom-gray-dark">{{ .Content | emojify }}</dd>
       <dt class="sr-only">Date</dt>
       <dd class="ml-auto text-xs font-medium custom-gray-dark">
         <time datetime="{{ .Params.begin }}"> {{ .Params.begin }} </time>
