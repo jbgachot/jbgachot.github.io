@@ -116,7 +116,11 @@ Then sum every point of data for each category.
 
 At that point we will get roughly, since system first boot, an amount of seconds where the cpu was busy and an amount of seconds where cpu was doing nothing.
 
-With some simple math, we could determine a percentage of average usage since first boot `100*time_doing_something/(time_doing_something+time_doing_nothing)`.
+With some simple math, we could determine a percentage of average usage since first boot:
+
+```txt
+100*time_doing_something/(time_doing_something+time_doing_nothing)
+```
 
 But those values are not the most useful and more details would be welcome... So we can see spikes, drops etc.
 
