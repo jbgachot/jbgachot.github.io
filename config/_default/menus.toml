@@ -4,17 +4,17 @@ name = "Home"
 url = "/"
 weight = 1
 
-# [[main]]
-# identifier = "posts"
-# name = "Posts"
-# url = "/posts"
-# weight = 2
+[[main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 2
 
-# [[main]]
-# identifier = "categories"
-# name = "Categories"
-# url = "/categories"
-# weight = 3
+[[main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories"
+weight = 3
 
 [[main]]
 identifier = "resume"
