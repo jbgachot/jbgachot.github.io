@@ -2,10 +2,10 @@
 title: "Cybelangel"
 begin: 2020
 end: 2020
-logo: cybelangel.webp
+logo: cybelangel.png
 layout: resume
 type: experience
-order: 5
+order: 4
 draft: false
 ---
 

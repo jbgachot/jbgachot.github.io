@@ -10,3 +10,5 @@ draft: false
 ---
 
 System Engineer
+
+Consultant for several aspects of bare metal infrastructures.
