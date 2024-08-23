@@ -1,14 +1,28 @@
-{{ $avatar := resources.GetMatch .Site.Params.avatar }}
-{{ $tiny :=
-  ($avatar.Fill "80x80 q90")
-}}
-<figure class="flex-none w-20 h-20 rounded-full overflow-hidden">
-  <a href="{{ .Site.BaseURL }}"
-    ><img
-      srcset="{{- with $tiny.RelPermalink -}}{{ . }} 80w{{- end -}}"
-      src="{{ $avatar.RelPermalink }}"
-      width="{{ $avatar.Width }}"
-      height="{{ $avatar.Height }}"
+{{ $avatar := resources.GetMatch (.Site.Params.avatar) }}
+{{ $avatarWebp := $avatar.Resize "160x webp q100 #ffffff" }}
+{{ $avatarJpeg := $avatar.Resize "160x jpg q100 #ffffff" }}
+<a href="{{ .Site.BaseURL }}">
+  <picture>
+    <source
+      srcset="{{ $avatarWebp.RelPermalink }}"
+      type="image/webp"
+      loading="lazy"
+      class="flex-none w-20 h-20 rounded-full overflow-hidden"
       alt="{{ .Site.Title }}"
-  /></a>
-</figure>
+    />
+    <source
+      srcset="{{ $avatarJpeg.RelPermalink }}"
+      type="image/jpeg"
+      loading="lazy"
+      class="flex-none w-20 h-20 rounded-full overflow-hidden"
+      alt="{{ .Site.Title }}"
+    />
+    <img
+      src="{{ $avatarJpeg.RelPermalink }}"
+      type="image/jpeg"
+      loading="lazy"
+      class="flex-none w-20 h-20 rounded-full overflow-hidden"
+      alt="{{ .Site.Title }}"
+    />
+  </picture>
+</a>
