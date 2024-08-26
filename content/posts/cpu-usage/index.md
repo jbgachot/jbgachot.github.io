@@ -15,7 +15,7 @@ I wanted to have in Lovelace UI some CPU indicators and since HA supports [comma
 
 That's what I wanted to achieve :
 
-![cpu graph](graph.png "A CPU utilization graph")
+![cpu graph](graph.webp "A CPU utilization graph")
 
 A simple graph showing CPU utilization over time.
 
