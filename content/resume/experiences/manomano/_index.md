@@ -11,9 +11,9 @@ draft: false
 
 FinOps Engineer / Staff SRE
 
-Joined a transversal platform team, with the mission to empower the company with finops, observability, incident management, chaos engineering and greenops; Mainly in charge of the finops pillar for the company, had the opportunity to:
+I joined a cross-functional platform team with the mission to empower the company through finops, observability, incident management, chaos engineering, and greenops. Primarily responsible for the finops pillar, I had the opportunity to:
 
-- Conceptualize and develop platform tools, in order to foster those 5 practices to the tech department
-- Help the engineers better understand and control the cost of SAAS-based solutions
-- Find waste and govern the usages with automated assessment upon running resources
-- Automate cloud commitment with predictive models
+- Conceptualize and develop platform tools to promote these five practices within the tech department.
+- Help engineers better understand and control the costs of SaaS-based solutions.
+- Identify waste and govern resource usage through automated assessments of running resources.
+- Automate cloud commitments using predictive models.

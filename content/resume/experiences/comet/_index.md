@@ -11,4 +11,4 @@ draft: false
 
 Lead SRE / DevOps
 
-Enrolled Comet as first SRE and had the opportunity to rework the entire stack, using automation at every stage of the infrastructure. But also as a DevOps, spreading within the teams of developper, best practices around development and provide automated deployments.
+I enrolled at Comet as the first SRE, where I had the opportunity to revamp the entire stack, using automation at every stage of the infrastructure. Additionally, in my devops role, I worked closely with development teams to promote best practices around development and facilitate automated deployments.

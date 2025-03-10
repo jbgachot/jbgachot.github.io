@@ -11,6 +11,6 @@ draft: false
 
 Platform Engineering Manager / Senior Lead SRE
 
-Took over the lead of a transversal team in charge of five pillars : observability, chaos engineering, incident management, finops and greenops.
+I led a cross-functional team responsible for five key pillars: observability, chaos engineering, incident management, finops, and greenops.
 
-Aiming to foster a product mindset in impactful solutions for Engineering teams. Different roadmaps and products vision to follow and develop, ensure user-centricity at every step of the development process. Assist in coding, UX and UI.
+My focus was on cultivating a product mindset to deliver impactful solutions for Engineering teams. I oversaw multiple roadmaps and product visions, ensuring user-centricity throughout the development process. Additionally, I assisted with coding, UX, and UI design to drive cohesive, high-quality outcomes.
