@@ -1,7 +1,7 @@
 ---
 title: "Manomano"
 begin: 2022
-end: Present
+end: 2024
 logo: manomano.png
 layout: resume
 type: experience
