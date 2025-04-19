@@ -2,7 +2,7 @@
 title: "Writing a CPU telemetry script"
 draft: false
 date: 2024-08-20
-description: "Small Bash script to retrieve the sample mean of the CPU usage, on a given period of time"
+description: "Simplify CPU observability with 14 lines of Bash"
 categories:
   - homelab
 ---
