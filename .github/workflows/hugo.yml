@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.145.0
+      HUGO_VERSION: 0.146.5
     steps:
       - name: Install Hugo CLI
         run: |
@@ -51,7 +51,7 @@ jobs:
       - name: Define Node version
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: "npm"
       - name: Install Node dependencies
         run: npm ci
