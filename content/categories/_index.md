@@ -2,7 +2,7 @@
 title: "Categories"
 draft: false
 type: taxonomies
-layout: "home"
+layout: "taxonomies"
 ---
 
 Pick your collection

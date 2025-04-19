@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 type: resume
-layout: "home"
+layout: "resume"
 ---
 
 {{< center >}}Platform engineering expertise{{< /center >}}
